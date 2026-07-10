@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or benchmark, please cite the published paper."
+title: "A Pruning Framework for Bias Mitigation in Large Language Models"
+authors:
+  - family-names: "Rajput"
+    given-names: "Amrita Singh"
+  - family-names: "Madisetti"
+    given-names: "Vijay K."
+date-released: 2026
+doi: 10.1109/OJCS.2026.3701986
+url: "https://github.com/ambruhsia/Pruning-Framework-for-Bias-Mitigation-in-Large-Language-Models"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Pruning Framework for Bias Mitigation in Large Language Models"
+  authors:
+    - family-names: "Rajput"
+      given-names: "Amrita Singh"
+    - family-names: "Madisetti"
+      given-names: "Vijay K."
+  journal: "IEEE Open Journal of the Computer Society"
+  year: 2026
+  volume: 7
+  start: 1309
+  end: 1320
+  doi: 10.1109/OJCS.2026.3701986
