@@ -8,6 +8,9 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-4.40%2B-yellow.svg)](https://github.com/huggingface/transformers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![IEEE OJ-CS](https://img.shields.io/badge/IEEE%20OJ--CS-10.1109%2FOJCS.2026.3701986-00629B.svg)](https://doi.org/10.1109/OJCS.2026.3701986)
+
+Published as: A. S. Rajput and V. K. Madisetti, ["A Pruning Framework for Bias Mitigation in Large Language Models,"](https://doi.org/10.1109/OJCS.2026.3701986) *IEEE Open Journal of the Computer Society*, vol. 7, pp. 1309–1320, 2026.
 
 </div>
 
@@ -254,18 +257,19 @@ The hybrid method operates at the **architectural level** (layer removal), makin
 
 ## 10. Citation
 
-If you use this code or benchmark, please cite:
+If you use this code or benchmark, please cite the published paper:
 
 ```bibtex
-@misc{hybrid_layer_bias_mitigation,
-  title  = {Mitigating Bias in Large Language Models via Hybrid Layer Importance Scoring},
-  author = {The Authors},
-  year   = {2025},
-  note   = {Preprint / under review}
+@ARTICLE{11554912,
+  author    = {Rajput, Amrita Singh and Madisetti, Vijay K.},
+  journal   = {IEEE Open Journal of the Computer Society},
+  title     = {A Pruning Framework for Bias Mitigation in Large Language Models},
+  year      = {2026},
+  volume    = {7},
+  pages     = {1309-1320},
+  doi       = {10.1109/OJCS.2026.3701986}
 }
 ```
-
-> Update the author and venue fields before release.
 
 ---
 
