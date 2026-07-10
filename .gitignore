@@ -1,0 +1,45 @@
+# ─── Local development artifacts (not for publication) ───────────────────
+# Patch/utility scripts and superseded scratch notebooks used only while
+# editing the notebooks during development.
+local-archive/
+
+# ─── Virtual environments ────────────────────────────────────────────────
+.venv/
+.venv-1/
+venv/
+env/
+
+# ─── Model / dataset caches ──────────────────────────────────────────────
+.hf_cache/
+.cache/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# ─── Notebook-generated outputs (regenerated on re-run) ──────────────────
+# Curated figures live under figures/ and are committed; ignore only the
+# transient copies the notebooks write to the repo root. Patterns are
+# root-anchored (leading /) so they never match anything under figures/.
+/*.png
+outputs/
+/hybrid_heatmap_*.png
+/ablation_impact_*.png
+/pareto_*.png
+/cross_model_ablation_comparison.png
+/*_report.txt
+
+# Never ignore the curated, published figures.
+!figures/
+
+# ─── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ─── Editor / IDE / agent settings ───────────────────────────────────────
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
